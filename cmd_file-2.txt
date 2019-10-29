@@ -1,0 +1,43 @@
+> mkdir demo
+> cd demo
+> ls -ltrh
+> git init
+> ls -al
+> cd .git
+> ls -ltrh
+> cd..
+> ls -ltrh
+> git status
+> touch abc.java
+> git add abc.java bbc.java
+> git status
+> git commit
+> git commit -m "created abc.java"
+> git status
+> ls -ltrh
+> vi abc.java
+
+change Vi hi there 
+
+> touch new.java
+>ls -ltrh
+> git status
+> git add bac.java new .java
+> git add .
+> git status
+> git commit -m "modified abc.java & created new.java"
+> git status
+> ls -ltrh
+> vi bbc.java
+hello there ( modefy this file )
+> rm new.java
+> ls -ltrh
+> git status
+> git add.
+> git commit -m "new change"
+> git status
+> git log
+> git show commit ID
+> git log
+> git commit -am " modified abc.java"
+
